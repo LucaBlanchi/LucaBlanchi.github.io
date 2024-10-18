@@ -51,6 +51,13 @@ body {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
+@media only screen and (max-width: 600px) {
+  #content {
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+}
+
 #strip-banner {
   position: absolute;
   top: 0;
@@ -59,4 +66,8 @@ body {
   width: 110%;
   height: auto;
   z-index: -1;
+}
+
+.dropdown {
+  margin-bottom: 10px;
 }
