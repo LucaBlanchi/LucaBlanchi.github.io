@@ -22,14 +22,12 @@ body {
   text-align: center;
 }
 
-#photos div {
-  margin-top: 10px;
-  font-size: 1em;
-}
-
 #photos a {
   color: inherit;
   text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 #photos img {
@@ -37,6 +35,12 @@ body {
   height: 120px;
   border-radius: 50%;
   object-fit: cover;
+}
+
+#photos div {
+  margin-top: 10px;
+  font-size: 1em;
+  text-align: center;
 }
 
 #content {
@@ -51,13 +55,6 @@ body {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-@media only screen and (max-width: 600px) {
-  #content {
-    margin-left: 5%;
-    margin-right: 5%;
-  }
-}
-
 #strip-banner {
   position: absolute;
   top: 0;
@@ -70,4 +67,21 @@ body {
 
 .dropdown {
   margin-bottom: 10px;
+}
+
+@media only screen and (max-width: 600px) {
+  #content {
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+
+  #photos img {
+    width: 80px;
+    height: 80px;
+  }
+
+  #strip-banner {
+    width: auto;
+    height: 37%;
+  }
 }
