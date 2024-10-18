@@ -81,7 +81,7 @@ body {
   }
 
   #strip-banner {
-    width: auto;
-    height: 37%;
+    width: 255%;
+    height: auto;
   }
 }
