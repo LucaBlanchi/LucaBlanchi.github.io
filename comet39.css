@@ -1,0 +1,62 @@
+body {
+  font-family: Helvetica, Arial, sans-serif;
+  background-color: #F4F2EE;
+}
+
+#title {
+  text-align: center;
+  font-size: 2em;
+  margin-top: 1%;
+  margin-bottom: 1%;
+}
+
+#photos {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+
+#photos .profile {
+  text-align: center;
+}
+
+#photos div {
+  margin-top: 10px;
+  font-size: 1em;
+}
+
+#photos a {
+  color: inherit;
+  text-decoration: none;
+}
+
+#photos img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+#content {
+  position: relative;
+  overflow: hidden;
+  margin-top: 1%;
+  margin-left: 15%;
+  margin-right: 15%;
+  padding: 2%;
+  border: 1px solid #ccc;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#strip-banner {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 110%;
+  height: auto;
+  z-index: -1;
+}
