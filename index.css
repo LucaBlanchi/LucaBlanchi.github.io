@@ -4,13 +4,16 @@ body {
   font-family: Helvetica, Arial, sans-serif;
 }
 
+p {
+  text-align: justify;
+}
+
 #hero-quote {
   display: flex;
   justify-content: center;
   align-items: center;
   background-color: white;
   width: 100%;
-  margin-bottom: 50px;
 }
 
 #quote {
@@ -79,29 +82,22 @@ body {
   }
 }
 
-#hero-care {
-  margin-left: 8%;
-  margin-right: 8%;
-  padding: 20px;
-  margin-bottom: 50px;
+.info-hero {
+  padding-left: 9%;
+  padding-right: 9%;
+  padding-top: 40px;
+  padding-bottom: 40px;
 }
 
 #hero-preventivo {
   background-color: white;
-  padding: 40px;
-}
-
-#hero-contacts {
-  margin-left: 8%;
-  margin-right: 8%;
-  padding: 20px;
 }
 
 #photos {
   display: flex;
   justify-content: center;
   gap: 30px;
-  margin-top: 30px;
+  margin-top: 40px;
   margin-bottom: 50px;
 }
 
@@ -184,6 +180,11 @@ body {
     border-radius: 10px;
     margin-top: 20px;
     width: 70%;
+  }
+
+  .info-hero {
+    padding-left: 12%;
+    padding-right: 12%;
   }
 
   #slideshow {
