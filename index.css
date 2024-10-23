@@ -206,13 +206,24 @@ p {
     height: 100%;
   }
 
-  #photos img {
-    width: 80px;
-    height: 80px;
+  #photos {
+    gap: 24px;
   }
 
-  #strip-banner {
-    width: 255%;
-    height: auto;
+  #photos a {
+    width: 70px;
+  }
+
+  #photos img {
+    width: 70px;
+    height: 70px;
+  }
+
+  #photos .profile div {
+    width: 70px;
+    max-width: 70px;
+    overflow: hidden;
+    display: block;
+    white-space: normal;
   }
 }
