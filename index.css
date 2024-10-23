@@ -104,6 +104,7 @@ p {
 
 #photos .profile {
   text-align: center;
+  white-space: nowrap;
 }
 
 #photos a {
@@ -112,6 +113,7 @@ p {
   display: flex;
   flex-direction: column;
   align-items: center;
+  width: 110px;
 }
 
 #photos img {
@@ -125,6 +127,10 @@ p {
   margin-top: 10px;
   font-size: 1em;
   text-align: center;
+  white-space: nowrap;
+  overflow: visible;
+  display: inline-block;
+  max-width: none;
 }
 
 .mobile-only {
