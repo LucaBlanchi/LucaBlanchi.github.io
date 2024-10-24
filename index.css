@@ -91,6 +91,10 @@ p {
   padding-bottom: 45px;
 }
 
+.dotted-list li {
+  margin-bottom: 6px;
+}
+
 #hero-preventivo {
   background-color: white;
 }
