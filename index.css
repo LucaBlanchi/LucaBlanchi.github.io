@@ -161,7 +161,6 @@ p {
     align-items: center;
     text-align: center;
     margin-bottom: 0;
-    background-color: #F4F2EE;
   }
 
   #quote {
@@ -181,7 +180,7 @@ p {
     margin-bottom: 0.5em;
   }
 
-  #quote-end {
+  #split-quote {
     font-size: 1.3em;
     font-weight: bold;
     background-color: white;
