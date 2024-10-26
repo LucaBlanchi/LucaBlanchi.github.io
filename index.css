@@ -101,8 +101,8 @@ p {
 #profiles {
   display: flex;
   justify-content: center;
-  gap: 40px;
-  margin-top: 60px;
+  gap: 70px;
+  margin-top: 50px;
   margin-bottom: 45px;
 }
 
@@ -147,7 +147,7 @@ p {
   }
 
   .mobile-only {
-    display: block;
+    display: unset;
   }
 
   #title-banner {
@@ -192,7 +192,9 @@ p {
   }
 
   #profiles {
-    gap: 24px;
+    gap: 45px;
+    margin-top: 40px;
+    margin-bottom: 20px;
   }
 
   #profiles a {
