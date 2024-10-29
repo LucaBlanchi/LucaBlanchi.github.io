@@ -6,7 +6,6 @@ body {
 
 p {
   text-align: justify;
-  line-height: 1.5;
 }
 
 .highlighted {
@@ -110,6 +109,15 @@ p {
   padding-right: 12%;
   padding-top: 45px;
   padding-bottom: 45px;
+}
+
+.standard-section p {
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+.indented {
+  text-indent: 1.5em;
 }
 
 .dotted-list li {
