@@ -127,6 +127,7 @@ p {
 .dotted-list li::marker {
   color: #ff6600;
   font-size: 1.3em;
+  margin-bottom: 0;
 }
 
 #linkedin-label {
