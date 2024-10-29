@@ -124,6 +124,11 @@ p {
   margin-bottom: 6px;
 }
 
+.dotted-list li::marker {
+  color: #ff6600;
+  font-size: 1.3em;
+}
+
 #linkedin-label {
   margin-top: 16px;
 }
@@ -224,6 +229,10 @@ p {
 
   #slideshow img {
     height: 100%;
+  }
+
+  .dotted-list {
+    padding-left: 1.5em;
   }
 
   #profiles {
