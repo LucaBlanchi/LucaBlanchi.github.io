@@ -26,12 +26,27 @@ p {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 100%;
+  width: 100vw;
+  font-family: 'Playfair Display', serif;
+}
+
+#top-quote {
+  font-size: 3vw;
+  margin-top: 0;
+}
+
+#bottom-quote {
+  font-size: 1.5vw;
+  margin-bottom: 0;
 }
 
 #quote {
-  margin-left: 15%;
-  margin-right: 12%;
+  margin-left: 8%;
+  margin-right: 8%;
+}
+
+#quote p {
+  text-align: left;
 }
 
 #slideshow {
@@ -39,6 +54,7 @@ p {
   width: auto;
   aspect-ratio: 16 / 12;
   height: 75vh;
+  max-height: 35vw;
   margin-left: auto;
   margin-right: 0;
 }
@@ -141,7 +157,7 @@ p {
   display: none;
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-aspect-ratio: 1) {
   .desktop-only {
     display: none;
   }
@@ -163,15 +179,20 @@ p {
   }
 
  .split-quote {
-    font-size: 1.3em;
-    font-weight: bold;
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    font-size: 1.5em;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-top: 0px;
+    padding-bottom: 0px;
     border-radius: 10px;
-    margin-top: 20px;
-    width: 70%;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    width: 95%;
+    text-align: center;
+  }
+
+  #bottom-quote-mobile {
+    font-size: 1em;
   }
 
   .standard-section {
@@ -185,6 +206,7 @@ p {
     aspect-ratio: 16 / 9;
     margin-left: 0;
     overflow: hidden;
+    max-height: 100vh;
   }
 
   #slideshow img {
