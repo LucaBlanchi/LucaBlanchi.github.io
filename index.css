@@ -68,6 +68,7 @@ p {
   opacity: 0;
   animation: fadeInOut 24s infinite;
   right: 0;
+  pointer-events: none;
 }
 
 #slideshow img:nth-child(1) {
@@ -250,8 +251,6 @@ p {
   }
 
   #profiles .profile div {
-    width: 70px;
-    max-width: 70px;
     overflow: hidden;
     display: block;
     white-space: normal;
